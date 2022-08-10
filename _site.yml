@@ -1,0 +1,33 @@
+name: A cool Website!
+output_dir: '.'
+navbar:
+  title: Home
+  type: default
+  left:
+  - text: Research
+    href: research.html
+  - text: Papers
+    href: papers.html
+  - text: Software
+    href: software.html
+  - text: Teaching
+    href: teaching.html
+  - text: Tutorials
+    href: learnxinyminutes.com
+    
+  right:
+  - icon: fa-envelope fa-lg
+    href: mailto:a@cool.email
+  - icon: ai-cv ai-lg
+    href: Downloads/file.pdf
+  - icon: ai-google-scholar-square ai-lg
+    href: https://scholar.google.com/citations
+  - icon: fa-github fa-lg
+    href: http://github.com/
+output:
+  html_document:
+    theme: lumen
+    css: styles.css
+    lib_dir: site_libs
+    self_contained: no
+

@@ -1,0 +1,16 @@
+---
+title: "A really cool person"
+output: 
+  html_document:
+    includes:
+       in_header: ga_script.html
+---
+
+<link rel="stylesheet" href="academicons.css"/>
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+
+### This is your homepage
+
+go wild
+
